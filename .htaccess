@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^gigs $1.php [NC,L]
+
+RewriteRule ^profile/(\d+)$ profile.php?id=$1 [NC,L]
